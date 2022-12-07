@@ -14,6 +14,8 @@
 
 ### **_Description_**
 
+Welcome to your guide to Colorado's 14ers! A 14er is a mountain taller than 14 thousand feet. People come from all over the world to hike
+
 ### **_Technologies Used_**
 
 ### **_Getting Started_**
