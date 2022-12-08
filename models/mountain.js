@@ -8,12 +8,8 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Mountain.belongsTo(models.User, {
-        as: 'user',
-        foreignKey: 'userId'
-      })
-      Mountain.belongsToMany(models.Post, {
-        as: 'mountains',
+      Mountain.belongsToMany(models.User, {
+        as: 'mountain_checklist',
         through: models.Checklist,
         foreignKey: 'mountainId'
       })

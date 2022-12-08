@@ -1,4 +1,5 @@
 const { User } = require('../models')
+const { Checklist } = require('../models')
 
 const GetUsers = async (req, res) => {
   try {
@@ -17,6 +18,18 @@ const GetUser = async (req, res) => {
       }
     })
     res.send(user)
+  } catch (error) {
+    throw error
+  }
+}
+
+const GetUserChecklist = async (req, res) => {
+  try {
+    const usercl = await User.findOne({
+      where: { id: req.params.user_Id },
+      include: [{ model: Checklist, as: 'user_checklist' }]
+    })
+    res.send(usercl)
   } catch (error) {
     throw error
   }
@@ -57,5 +70,6 @@ module.exports = {
   GetUser,
   CreateUser,
   UpdateUser,
-  DeleteUser
+  DeleteUser,
+  GetUserChecklist
 }

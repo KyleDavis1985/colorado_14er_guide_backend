@@ -10,15 +10,14 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       User.hasMany(models.Post, { foreignKey: 'userId' })
       User.belongsToMany(models.Mountain, {
-        as: 'checklist',
+        as: 'user_mountain',
         through: models.Checklist,
         foreignKey: 'userId'
       })
-      User.hasMany(models.Mountain, {
-        as: 'mountains',
-        foreignKey: 'userId'
+      User.hasMany(models.Checklist, {
+        foreignKey: 'userId',
+        as: 'user_checklist'
       })
-      User.hasMany(models.Checklist, { foreignKey: 'userId' })
     }
   }
   User.init(
