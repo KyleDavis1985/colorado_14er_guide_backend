@@ -124,6 +124,66 @@ module.exports = {
           long: 106.86144,
           createdAt: new Date(),
           updatedAt: new Date()
+        },
+        {
+          name: 'Quandry Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Quandary_Peak#/media/File:QuandaryPeak.JPG',
+          rank: 11,
+          elevation: '14,272 feet',
+          range: 'Tenmile',
+          lat: 39.397236,
+          long: 106.10643,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Torreys Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Torreys_Peak#/media/File:Torreys.JPG',
+          rank: 12,
+          elevation: '14,272 feet',
+          range: 'Front Range',
+          lat: 39.642742,
+          long: 105.821259,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Antero',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Antero#/media/File:Mount_Antero,_taken_from_along_U.S._285,_near_the_town_of_Nathrop.jpg',
+          rank: 13,
+          elevation: '14,271 feet',
+          range: 'Sawatch',
+          lat: 38.674088,
+          long: 106.246201,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Evans',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Evans#/media/File:Mt_Evans.JPG',
+          rank: 14,
+          elevation: '14,268 feet',
+          range: 'Front Range',
+          lat: 39.58836,
+          long: 105.643333,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Longs Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Longs_Peak#/media/File:Fall05-LongsPeakCU_JPG_RSZ_md.jpg',
+          rank: 15,
+          elevation: '14,259 feet',
+          range: 'Front Range',
+          lat: 40.254902,
+          long: 105.615738,
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
