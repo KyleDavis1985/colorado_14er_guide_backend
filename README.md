@@ -14,7 +14,7 @@
 
 ### **_Description_**
 
-Welcome to your guide to Colorado's 14ers! A 14er is a mountain taller than 14 thousand feet. People come from all over the world to hike
+This project is centered around the hiking culture of Colorado's 14ers (14k foot mountains). The users will be able to log in and check off which mountains that they have climbed. They will also be able to add trip reports to let the other users know how the conditions are on the mountain. Lastly the users will have access to weather data and GPS for their desired route.
 
 ### **_Technologies Used_**
 
