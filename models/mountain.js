@@ -20,7 +20,9 @@ module.exports = (sequelize, DataTypes) => {
       image: DataTypes.STRING,
       rank: DataTypes.INTEGER,
       elevation: DataTypes.STRING,
-      range: DataTypes.STRING
+      range: DataTypes.STRING,
+      lat: DataTypes.DECIMAL,
+      long: DataTypes.DECIMAL
     },
     {
       sequelize,

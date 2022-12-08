@@ -25,6 +25,12 @@ module.exports = {
       range: {
         type: Sequelize.STRING
       },
+      lat: {
+        type: Sequelize.DECIMAL
+      },
+      long: {
+        type: Sequelize.DECIMAL
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
