@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Post.belongsTo(models.User, { foreignKey: 'userId' })
+      Post.belongsTo(models.User, { foreignKey: 'userId', as: 'user_posts' })
     }
   }
   Post.init(
@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.TEXT,
         allowNull: false
       },
-      image: DataTypes.TEXT,
+      image: DataTypes.STRING,
       userId: {
         type: DataTypes.INTEGER,
         onDelete: 'CASCADE',

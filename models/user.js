@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      User.hasMany(models.Post, { foreignKey: 'userId' })
+      User.hasMany(models.Post, { foreignKey: 'userId', as: 'user_posts' })
       User.belongsToMany(models.Mountain, {
         as: 'user_mountain',
         through: models.Checklist,

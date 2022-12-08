@@ -17,7 +17,7 @@ module.exports = {
         type: Sequelize.TEXT,
         allowNull: false
       },
-      image: Sequelize.TEXT,
+      image: Sequelize.STRING,
       userId: {
         type: Sequelize.INTEGER,
         onDelete: 'CASCADE',
