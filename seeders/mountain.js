@@ -184,6 +184,114 @@ module.exports = {
           long: 105.615738,
           createdAt: new Date(),
           updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Wilson',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Wilson_(Colorado)#/media/File:Mount_Wilson_cropped.jpg',
+          rank: 16,
+          elevation: '14,256 feet',
+          range: 'San Juan Mountains',
+          lat: 37.83931,
+          long: 107.99157,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Shavano',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Shavano#/media/File:Esprit_Point_and_Mount_Shavano.jpg',
+          rank: 17,
+          elevation: '14,230 feet',
+          range: 'Sawatch',
+          lat: 38.619083,
+          long: 106.239296,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Belford',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Belford#/media/File:Mt._belford_north_approach.jpg',
+          rank: 18,
+          elevation: '14,202 feet',
+          range: 'Sawatch',
+          lat: 38.960575,
+          long: 106.360832,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Princeton',
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/d/d3/Mtprinceton.JPG',
+          rank: 19,
+          elevation: '14,200 feet',
+          range: 'Sawatch',
+          lat: 38.749062,
+          long: 106.242432,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Yale',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Yale#/media/File:Mt.yale_edit.JPG',
+          rank: 20,
+          elevation: '14,200 feet',
+          range: 'Sawatch',
+          lat: 38.844051,
+          long: 106.313965,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Crestone Needle',
+          image:
+            'https://en.wikipedia.org/wiki/Crestone_Needle#/media/File:Crestone_needle_and_lower_south_colony_lake_2008.JPG',
+          rank: 21,
+          elevation: '14,196 feet',
+          range: 'Sangre de Cristo',
+          lat: 37.964737,
+          long: 105.576683,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Bross',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Bross#/media/File:Mt_Bross.jpg',
+          rank: 22,
+          elevation: '14,178 feet',
+          range: 'Mosquito',
+          lat: 39.33506,
+          long: 106.107376,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Kit Carson Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Kit_Carson_Peak#/media/File:Kitcarsonmtn.jpg',
+          rank: 23,
+          elevation: '14,167 feet',
+          range: 'Sangre de Cristo',
+          lat: 37.979759,
+          long: 105.602562,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Maroon Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Maroon_Bells#/media/File:Maroon_Bells_(11553)a.jpg',
+          rank: 24,
+          elevation: '14,163 feet',
+          range: 'Elk Mountains',
+          lat: 39.070713,
+          long: 106.989113,
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
