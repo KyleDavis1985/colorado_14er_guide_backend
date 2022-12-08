@@ -13,7 +13,7 @@ const GetPost = async (req, res) => {
   try {
     const post = await Post.findOne({
       where: {
-        id: req.params.post_id
+        id: req.params.postId
       }
     })
     res.send(post)
@@ -35,7 +35,7 @@ const UpdatePost = async (req, res) => {
   try {
     const post = await Post.update(
       { ...req.body },
-      { where: { id: req.params.post_id }, returning: true }
+      { where: { id: req.params.postId }, returning: true }
     )
     res.send(post)
   } catch (error) {
@@ -45,8 +45,8 @@ const UpdatePost = async (req, res) => {
 
 const DeletePost = async (req, res) => {
   try {
-    await Post.destroy({ where: { id: req.params.post_id } })
-    res.send({ msg: 'Post Deleted', payload: req.params.post_id, status: 'Ok' })
+    await Post.destroy({ where: { id: req.params.postId } })
+    res.send({ msg: 'Post Deleted', payload: req.params.postId, status: 'Ok' })
   } catch (error) {
     throw error
   }
