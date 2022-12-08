@@ -1,22 +1,30 @@
-'use strict';
+'use strict'
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('users', {
+    await queryInterface.createTable('checklists', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      name: {
-        type: Sequelize.STRING
+      hasClimbed: {
+        type: Sequelize.BOOLEAN
       },
-      email: {
-        type: Sequelize.STRING
+      userId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'users',
+          key: 'id'
+        }
       },
-      password: {
-        type: Sequelize.STRING
+      mountainId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'mountains',
+          key: 'id'
+        }
       },
       createdAt: {
         allowNull: false,
@@ -26,9 +34,9 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       }
-    });
+    })
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('users');
+    await queryInterface.dropTable('checklists')
   }
-};
+}
