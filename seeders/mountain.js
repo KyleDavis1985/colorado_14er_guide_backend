@@ -359,9 +359,297 @@ module.exports = {
             'https://en.wikipedia.org/wiki/Pikes_Peak#/media/File:Pikespeak.JPG',
           rank: 30,
           elevation: '14,109 feet',
-          range: 'Elk Mountains',
+          range: 'Front Range',
           lat: 38.840542,
           long: 105.044357,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Snowmass Mountain',
+          image:
+            'https://en.wikipedia.org/wiki/Snowmass_Mountain#/media/File:Hagerman_Peak_and_Snowmass_Mountain.jpg',
+          rank: 31,
+          elevation: '14,105 feet',
+          range: 'Elk Mountains',
+          lat: 39.118809,
+          long: 107.066528,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Windom Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Windom_Peak#/media/File:Windom_Peak_and_Unnamed_above_Chicago_Basin.jpg',
+          rank: 32,
+          elevation: '14,089 feet',
+          range: 'San Juan Mountains',
+          lat: 37.621235,
+          long: 107.591774,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Eolus',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Eolus#/media/File:Mount_Eolus.jpg',
+          rank: 33,
+          elevation: '14,087',
+          range: 'San Juan Mountains',
+          lat: 37.621948,
+          long: 107.622498,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Columbia',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Columbia_(Colorado)#/media/File:Mount_Columbia_(Colorado)_-_2004-08-07.jpg',
+          rank: 34,
+          elevation: '14,075 feet',
+          range: 'Sawatch',
+          lat: 38.903957,
+          long: 106.297485,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Missouri Mountain',
+          image:
+            'https://en.wikipedia.org/wiki/Missouri_Mountain#/media/File:Missouri_Mountain_(Colorado)_-_2006-07-16.jpg',
+          rank: 35,
+          elevation: '14,071 feet',
+          range: 'Sawatch',
+          lat: 38.947559,
+          long: 106.378471,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Humboldt Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Humboldt_Peak_(Colorado)#/media/File:Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg',
+          rank: 36,
+          elevation: '14,068 feet',
+          range: 'Sangre de Cristo',
+          lat: 37.976105,
+          long: 105.555351,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Bierstadt',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Bierstadt#/media/File:2007-07-08-biers-reflectio2.jpg',
+          rank: 37,
+          elevation: '14,066 feet',
+          range: 'Front Range',
+          lat: 39.582638,
+          long: 105.66861,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Sunlight Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Sunlight_Peak#/media/File:Sunlight_Peak.jpg',
+          rank: 38,
+          elevation: '14,061 feet',
+          range: 'San Juan Mountains',
+          lat: 37.627285,
+          long: 107.595894,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Handies Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Handies_Peak#/media/File:Handies_Peak_Colorado.jpg',
+          rank: 39,
+          elevation: '14,058 feet',
+          range: 'San Juan Mountains',
+          lat: 37.913021,
+          long: 107.504478,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Ellingwood Point',
+          image:
+            'https://en.wikipedia.org/wiki/Ellingwood_Point#/media/File:MtBlancaEast.jpg',
+          rank: 40,
+          elevation: '14,057 feet',
+          range: 'Sangre de Cristo',
+          lat: 37.582508,
+          long: 105.492569,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Lindsey',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Lindsey#/media/File:Mount_Lindsey_and_Iron_Nipple.jpg',
+          rank: 41,
+          elevation: '14,055 feet',
+          range: 'Sangre de Cristo',
+          lat: 37.583801,
+          long: 105.444763,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Snowmass Mountain',
+          image:
+            'https://en.wikipedia.org/wiki/Snowmass_Mountain#/media/File:Hagerman_Peak_and_Snowmass_Mountain.jpg',
+          rank: 31,
+          elevation: '14,105 feet',
+          range: 'Elk Mountains',
+          lat: 37.621235,
+          long: 107.591774,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Culebra Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Culebra_Peak#/media/File:Culebra_Peak.jpg',
+          rank: 42,
+          elevation: '14,053 feet',
+          range: 'Sangre de Cristo',
+          lat: 37.122173,
+          long: 105.185593,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Sherman',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Sherman#/media/File:MountSherman.JPG',
+          rank: 43,
+          elevation: '14,043 feet',
+          range: 'Mosquito',
+          lat: 39.225006,
+          long: 106.169945,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Little Bear Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Little_Bear_Peak#/media/File:Little_Bear_Peak_from_southwest_ridge,_Feb_2012.JPG',
+          rank: 44,
+          elevation: '14,041 feet',
+          range: 'Sangre de Cristo',
+          lat: 37.566624,
+          long: 105.497162,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Redcloud Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Redcloud_Peak#/media/File:Sanjuan14ers-8.jpg',
+          rank: 45,
+          elevation: '14,037 feet',
+          range: 'San Juan Mountains',
+          lat: 37.94088,
+          long: 107.421654,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Pyramid Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Pyramid_Peak_(Colorado)#/media/File:Pyramid_Peak.jpg',
+          rank: 46,
+          elevation: '14,029 feet',
+          range: 'Elk Mountains',
+          lat: 39.071545,
+          long: 106.950188,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'San Luis Peak',
+          image:
+            'https://en.wikipedia.org/wiki/San_Luis_Peak#/media/File:San_Luis_Peak,_San_Juan_Mountains,_Saguache_County,_Colorado,_USA_01.jpg',
+          rank: 47,
+          elevation: '14,023 feet',
+          range: 'San Juan Mountains',
+          lat: 37.986897,
+          long: 106.931389,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'North Maroon Peak',
+          image:
+            'https://cdn-assets.alltrails.com/uploads/photo/image/19420724/extra_large_e27e4a9c77945b0f374560a17c5ca4c2.jpg',
+          rank: 48,
+          elevation: '14,022 feet',
+          range: 'Elk Mountains',
+          lat: 39.076077,
+          long: 106.987267,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Wetterhorn Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Wetterhorn_Peak#/media/File:Wetterhorn_peak.jpg',
+          rank: 49,
+          elevation: '14,021 feet',
+          range: 'San Juan Mountains',
+          lat: 38.060593,
+          long: 107.510834,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Wilson Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Wilson_Peak#/media/File:Wilson_Peak_near_Telluride.jpg',
+          rank: 50,
+          elevation: '14,021 feet',
+          range: 'San Juan Mountains',
+          lat: 37.859913,
+          long: 107.984795,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. of the Holy Cross',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_of_the_Holy_Cross#/media/File:Mount_of_the_Holy_Cross,_2009.jpg',
+          rank: 51,
+          elevation: '14,007 feet',
+          range: 'Sawatch',
+          lat: 39.466713,
+          long: 106.481766,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Huron Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Huron_Peak#/media/File:Huron_Peak_(48458753091).jpg',
+          rank: 52,
+          elevation: '14,006 feet',
+          range: 'Sawatch',
+          lat: 38.945423,
+          long: 106.438126,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Sunshine Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Sunshine_Peak#/media/File:Red_Cloud_Peak_WSA_(9470419585).jpg',
+          rank: 53,
+          elevation: '14,004 feet',
+          range: 'San Juan Mountains',
+          lat: 37.922604,
+          long: 107.425606,
           createdAt: new Date(),
           updatedAt: new Date()
         }
