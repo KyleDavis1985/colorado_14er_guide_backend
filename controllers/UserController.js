@@ -14,7 +14,7 @@ const GetUser = async (req, res) => {
   try {
     const user = await User.findOne({
       where: {
-        id: req.params.user_id
+        id: req.params.userId
       }
     })
     res.send(user)
@@ -26,7 +26,7 @@ const GetUser = async (req, res) => {
 const GetUserChecklist = async (req, res) => {
   try {
     const usercl = await User.findOne({
-      where: { id: req.params.user_Id },
+      where: { id: req.params.userId },
       include: [{ model: Checklist, as: 'user_checklist' }]
     })
     res.send(usercl)
@@ -48,7 +48,7 @@ const UpdateUser = async (req, res) => {
   try {
     const user = await User.update(
       { ...req.body },
-      { where: { id: req.params.user_id }, returning: true }
+      { where: { id: req.params.userId }, returning: true }
     )
     res.send(user)
   } catch (error) {
@@ -58,8 +58,8 @@ const UpdateUser = async (req, res) => {
 
 const DeleteUser = async (req, res) => {
   try {
-    await User.destroy({ where: { id: req.params.user_id } })
-    res.send({ msg: 'User Deleted', payload: req.params.user_id, status: 'Ok' })
+    await User.destroy({ where: { id: req.params.userId } })
+    res.send({ msg: 'User Deleted', payload: req.params.userId, status: 'Ok' })
   } catch (error) {
     return res.status(500).send(error.message)
   }

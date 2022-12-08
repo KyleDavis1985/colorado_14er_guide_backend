@@ -37,7 +37,7 @@ const CreateChecklist = async (req, res) => {
 const GetUserWithMountains = async (req, res) => {
   try {
     const user = await User.findOne({
-      where: { id: req.params.user_Id },
+      where: { id: req.params.userId },
       include: [{ model: Mountain, as: 'user_mountain' }]
     })
     res.send(user)
