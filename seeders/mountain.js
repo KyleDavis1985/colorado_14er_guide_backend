@@ -292,6 +292,78 @@ module.exports = {
           long: 106.989113,
           createdAt: new Date(),
           updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Oxford',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Oxford_(Colorado)#/media/File:Mount_Oxford_(Colorado)_-_2006-07-16.jpg',
+          rank: 25,
+          elevation: '14,158 feet',
+          range: 'Sawatch',
+          lat: 38.96468,
+          long: 106.338432,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Tabeguache Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Tabeguache_Peak#/media/File:Tabeguache_Peak,_Sawatch_Range,_Chaffee_County,_Colorado,_USA_01.jpg',
+          rank: 26,
+          elevation: '14,158 feet',
+          range: 'Sawatch',
+          lat: 38.625622,
+          long: 106.25071,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Sneffels',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Sneffels#/media/File:MtSneffelsMarch2008.jpg',
+          rank: 27,
+          elevation: '14,155 feet',
+          range: 'San Juan Mountains',
+          lat: 38.003605,
+          long: 107.792229,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Mt. Democrat',
+          image:
+            'https://en.wikipedia.org/wiki/Mount_Democrat#/media/File:Mt_Democrat.jpg',
+          rank: 28,
+          elevation: '14,154 feet',
+          range: 'Mosquito',
+          lat: 39.339542,
+          long: 106.139946,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Capitol Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Capitol_Peak_(Colorado)#/media/File:Capitol_Peak_CO.jpg',
+          rank: 29,
+          elevation: '14,138 feet',
+          range: 'Elk Mountains',
+          lat: 39.150166,
+          long: 107.083221,
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Pikes Peak',
+          image:
+            'https://en.wikipedia.org/wiki/Pikes_Peak#/media/File:Pikespeak.JPG',
+          rank: 30,
+          elevation: '14,109 feet',
+          range: 'Elk Mountains',
+          lat: 38.840542,
+          long: 105.044357,
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
