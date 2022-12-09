@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const controller = require('../controllers/UserController')
+const controller = require('../controllers/MountainController')
 
 router.get('/', controller.GetMountains)
 
