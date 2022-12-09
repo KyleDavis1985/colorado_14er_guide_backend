@@ -1,4 +1,5 @@
 const { Mountain } = require('../models')
+const { Checklist } = require('../models')
 
 const GetMountains = async (req, res) => {
   try {
@@ -9,6 +10,19 @@ const GetMountains = async (req, res) => {
   }
 }
 
+const GetMountainChecklist = async (req, res) => {
+  try {
+    const mountaincl = await Mountain.findOne({
+      where: { id: req.params.mountainId },
+      include: [{ model: Checklist, as: 'mountain_cl' }]
+    })
+    res.send(mountaincl)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
-  GetMountains
+  GetMountains,
+  GetMountainChecklist
 }

@@ -13,6 +13,10 @@ module.exports = (sequelize, DataTypes) => {
         through: models.Checklist,
         foreignKey: 'mountainId'
       })
+      Mountain.hasMany(models.Checklist, {
+        foreignKey: 'mountainId',
+        as: 'mountain_cl'
+      })
     }
   }
   Mountain.init(
