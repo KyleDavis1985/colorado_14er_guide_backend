@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Mountain.belongsToMany(models.User, {
-        as: 'mountain_checklist',
+        as: 'mountain_users',
         through: models.Checklist,
         foreignKey: 'mountainId'
       })

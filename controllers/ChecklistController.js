@@ -17,7 +17,7 @@ const GetUsersIncludingMountains = async (req, res) => {
 const GetMountainsIncludingUser = async (req, res) => {
   try {
     const mountain = await Mountain.findAll({
-      include: [{ model: User, as: 'users' }]
+      include: [{ model: User, as: 'mountain_users' }]
     })
     res.send(mountain)
   } catch (error) {
