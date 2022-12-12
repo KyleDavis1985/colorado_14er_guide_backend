@@ -34,6 +34,19 @@ const CreateChecklist = async (req, res) => {
   }
 }
 
+const DeleteChecklist = async (req, res) => {
+  try {
+    await Checklist.destroy({ where: { id: req.params.mountainId } })
+    res.send({
+      msg: 'Checklist Deleted',
+      payload: req.params.mountainId,
+      status: 'Ok'
+    })
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
 const GetUserWithMountains = async (req, res) => {
   try {
     const user = await User.findOne({
@@ -50,5 +63,6 @@ module.exports = {
   GetMountainsIncludingUser,
   GetUsersIncludingMountains,
   CreateChecklist,
-  GetUserWithMountains
+  GetUserWithMountains,
+  DeleteChecklist
 }
