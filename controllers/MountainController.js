@@ -22,7 +22,19 @@ const GetMountainChecklist = async (req, res) => {
   }
 }
 
+const GetMountainsChecklist = async (req, res) => {
+  try {
+    const mountaincl = await Mountain.findAll({
+      include: [{ model: Checklist, as: 'mountain_cl' }]
+    })
+    res.send(mountaincl)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
   GetMountains,
-  GetMountainChecklist
+  GetMountainChecklist,
+  GetMountainsChecklist
 }
