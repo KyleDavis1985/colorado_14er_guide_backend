@@ -152,7 +152,7 @@ module.exports = {
         {
           name: 'Mt. Antero',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Antero#/media/File:Mount_Antero,_taken_from_along_U.S._285,_near_the_town_of_Nathrop.jpg',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/20600551/extra_large_002913b9db41966dddc0534008822eb8.jpg',
           rank: 13,
           elevation: '14,271 feet',
           range: 'Sawatch',
@@ -164,7 +164,7 @@ module.exports = {
         {
           name: 'Mt. Evans',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Evans#/media/File:Mt_Evans.JPG',
+            'https://i.pinimg.com/originals/52/b8/2a/52b82a9ab3eb8d226616b0ec4d0fa7b4.jpg',
           rank: 14,
           elevation: '14,268 feet',
           range: 'Front Range',
@@ -175,8 +175,7 @@ module.exports = {
         },
         {
           name: 'Longs Peak',
-          image:
-            'https://en.wikipedia.org/wiki/Longs_Peak#/media/File:Fall05-LongsPeakCU_JPG_RSZ_md.jpg',
+          image: 'https://cdn.5280.com/2016/06/5280_longs_close_up.jpg',
           rank: 15,
           elevation: '14,259 feet',
           range: 'Front Range',
@@ -188,7 +187,7 @@ module.exports = {
         {
           name: 'Mt. Wilson',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Wilson_(Colorado)#/media/File:Mount_Wilson_cropped.jpg',
+            'https://images.fineartamerica.com/images-medium-large-5/mount-wilson-in-autumn-from-silver-pick-road-jetson-nguyen.jpg',
           rank: 16,
           elevation: '14,256 feet',
           range: 'San Juan Mountains',
@@ -200,7 +199,7 @@ module.exports = {
         {
           name: 'Mt. Shavano',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Shavano#/media/File:Esprit_Point_and_Mount_Shavano.jpg',
+            'https://www.mountain-forecast.com/system/images/8420/large_illustration/Mount-Shavano.jpg',
           rank: 17,
           elevation: '14,230 feet',
           range: 'Sawatch',
@@ -212,7 +211,7 @@ module.exports = {
         {
           name: 'Mt. Belford',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Belford#/media/File:Mt._belford_north_approach.jpg',
+            'https://sp-images.summitpost.org/806528.JPG?auto=format&fit=max&ixlib=php-2.1.1&q=35&w=1024&s=404fa51b92da5b8f2270b13c3f1d3727',
           rank: 18,
           elevation: '14,202 feet',
           range: 'Sawatch',
@@ -224,7 +223,7 @@ module.exports = {
         {
           name: 'Mt. Princeton',
           image:
-            'https://upload.wikimedia.org/wikipedia/commons/d/d3/Mtprinceton.JPG',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/23252391/extra_large_2bd9be13646ca3dff756f524a30c97e5.jpg',
           rank: 19,
           elevation: '14,200 feet',
           range: 'Sawatch',
@@ -236,7 +235,7 @@ module.exports = {
         {
           name: 'Mt. Yale',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Yale#/media/File:Mt.yale_edit.JPG',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/23272978/extra_large_e3716d5fa3116db6aed0def8adaf2d0e.jpg',
           rank: 20,
           elevation: '14,200 feet',
           range: 'Sawatch',
@@ -248,7 +247,7 @@ module.exports = {
         {
           name: 'Crestone Needle',
           image:
-            'https://en.wikipedia.org/wiki/Crestone_Needle#/media/File:Crestone_needle_and_lower_south_colony_lake_2008.JPG',
+            'https://sp-images.summitpost.org/528545.JPG?auto=format&fit=max&h=1000&ixlib=php-2.1.1&q=35&s=8f9d37b4c5b07fd811c2651697ced179',
           rank: 21,
           elevation: '14,196 feet',
           range: 'Sangre de Cristo',
@@ -260,7 +259,7 @@ module.exports = {
         {
           name: 'Mt. Bross',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Bross#/media/File:Mt_Bross.jpg',
+            'https://sp-images.summitpost.org/99005.jpg?auto=format&fit=max&ixlib=php-2.1.1&q=35&w=1024&s=b2fec7a1dfb91591e4944eda4121810d',
           rank: 22,
           elevation: '14,178 feet',
           range: 'Mosquito',
@@ -272,7 +271,7 @@ module.exports = {
         {
           name: 'Kit Carson Peak',
           image:
-            'https://en.wikipedia.org/wiki/Kit_Carson_Peak#/media/File:Kitcarsonmtn.jpg',
+            'https://sp-images.summitpost.org/533445.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=cbc000917372835bda6cc7facc1c7d46',
           rank: 23,
           elevation: '14,167 feet',
           range: 'Sangre de Cristo',
@@ -284,7 +283,7 @@ module.exports = {
         {
           name: 'Maroon Peak',
           image:
-            'https://en.wikipedia.org/wiki/Maroon_Bells#/media/File:Maroon_Bells_(11553)a.jpg',
+            'https://www.rickcrandall.net/wp-content/uploads/images/59_Maroon-Peak-climb-2_02.jpg',
           rank: 24,
           elevation: '14,163 feet',
           range: 'Elk Mountains',
@@ -296,7 +295,7 @@ module.exports = {
         {
           name: 'Mt. Oxford',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Oxford_(Colorado)#/media/File:Mount_Oxford_(Colorado)_-_2006-07-16.jpg',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/23816734/extra_large_a1eb20fe82629fc885051f1ed86f254c.jpg',
           rank: 25,
           elevation: '14,158 feet',
           range: 'Sawatch',
@@ -308,7 +307,7 @@ module.exports = {
         {
           name: 'Tabeguache Peak',
           image:
-            'https://en.wikipedia.org/wiki/Tabeguache_Peak#/media/File:Tabeguache_Peak,_Sawatch_Range,_Chaffee_County,_Colorado,_USA_01.jpg',
+            'https://sp-images.summitpost.org/457469.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=2ac786df27a48e7d852c967590f10878',
           rank: 26,
           elevation: '14,158 feet',
           range: 'Sawatch',
@@ -320,7 +319,7 @@ module.exports = {
         {
           name: 'Mt. Sneffels',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Sneffels#/media/File:MtSneffelsMarch2008.jpg',
+            'https://www.mountainphotography.com/images/xl/20130608-Alpenglow-on-Mt.-Sneffels.jpg',
           rank: 27,
           elevation: '14,155 feet',
           range: 'San Juan Mountains',
@@ -332,7 +331,7 @@ module.exports = {
         {
           name: 'Mt. Democrat',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Democrat#/media/File:Mt_Democrat.jpg',
+            'https://sp-images.summitpost.org/115029.jpg?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=f3a5005e1e455e26b4146900a0a4ecfe',
           rank: 28,
           elevation: '14,154 feet',
           range: 'Mosquito',
@@ -344,7 +343,7 @@ module.exports = {
         {
           name: 'Capitol Peak',
           image:
-            'https://en.wikipedia.org/wiki/Capitol_Peak_(Colorado)#/media/File:Capitol_Peak_CO.jpg',
+            'https://sp-images.summitpost.org/801224.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=06e012dc7e74be6e4b80c46f1bc49d62',
           rank: 29,
           elevation: '14,138 feet',
           range: 'Elk Mountains',
@@ -356,7 +355,7 @@ module.exports = {
         {
           name: 'Pikes Peak',
           image:
-            'https://en.wikipedia.org/wiki/Pikes_Peak#/media/File:Pikespeak.JPG',
+            'https://images.fineartamerica.com/images-medium-large-5/pikes-peak-in-winter-john-hoffman.jpg',
           rank: 30,
           elevation: '14,109 feet',
           range: 'Front Range',
@@ -368,7 +367,7 @@ module.exports = {
         {
           name: 'Snowmass Mountain',
           image:
-            'https://en.wikipedia.org/wiki/Snowmass_Mountain#/media/File:Hagerman_Peak_and_Snowmass_Mountain.jpg',
+            'https://sp-images.summitpost.org/538158.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=33af53e61f25f65987c87618f2561e5d',
           rank: 31,
           elevation: '14,105 feet',
           range: 'Elk Mountains',
@@ -380,7 +379,7 @@ module.exports = {
         {
           name: 'Windom Peak',
           image:
-            'https://en.wikipedia.org/wiki/Windom_Peak#/media/File:Windom_Peak_and_Unnamed_above_Chicago_Basin.jpg',
+            'https://sp-images.summitpost.org/1055762.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=d0332a3c29c666a704926955f87edc8f',
           rank: 32,
           elevation: '14,089 feet',
           range: 'San Juan Mountains',
@@ -391,8 +390,7 @@ module.exports = {
         },
         {
           name: 'Mt. Eolus',
-          image:
-            'https://en.wikipedia.org/wiki/Mount_Eolus#/media/File:Mount_Eolus.jpg',
+          image: 'https://i.ytimg.com/vi/-j2r3UyqoOs/maxresdefault.jpg',
           rank: 33,
           elevation: '14,087',
           range: 'San Juan Mountains',
@@ -404,7 +402,7 @@ module.exports = {
         {
           name: 'Mt. Columbia',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Columbia_(Colorado)#/media/File:Mount_Columbia_(Colorado)_-_2004-08-07.jpg',
+            'http://s3.amazonaws.com/summitsearchlive/photos/photos/80/medium/columbia.jpg?1362057700',
           rank: 34,
           elevation: '14,075 feet',
           range: 'Sawatch',
@@ -416,7 +414,7 @@ module.exports = {
         {
           name: 'Missouri Mountain',
           image:
-            'https://en.wikipedia.org/wiki/Missouri_Mountain#/media/File:Missouri_Mountain_(Colorado)_-_2006-07-16.jpg',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/24253585/extra_large_8b065c1ff5da6ee0cfbc4eb9f4d3df08.jpg',
           rank: 35,
           elevation: '14,071 feet',
           range: 'Sawatch',
@@ -428,7 +426,7 @@ module.exports = {
         {
           name: 'Humboldt Peak',
           image:
-            'https://en.wikipedia.org/wiki/Humboldt_Peak_(Colorado)#/media/File:Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg',
+            'https://sp-images.summitpost.org/649826.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=81a03e6d364bfb4dc3c10366b233bbe5',
           rank: 36,
           elevation: '14,068 feet',
           range: 'Sangre de Cristo',
@@ -440,7 +438,7 @@ module.exports = {
         {
           name: 'Mt. Bierstadt',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Bierstadt#/media/File:2007-07-08-biers-reflectio2.jpg',
+            'https://www.mountain-forecast.com/system/images/6632/large_illustration/Mount-Bierstadt.jpg',
           rank: 37,
           elevation: '14,066 feet',
           range: 'Front Range',
@@ -452,7 +450,7 @@ module.exports = {
         {
           name: 'Sunlight Peak',
           image:
-            'https://en.wikipedia.org/wiki/Sunlight_Peak#/media/File:Sunlight_Peak.jpg',
+            'https://www.mattpaynephotography.com/images/xl/Sunlight-Peak.jpg',
           rank: 38,
           elevation: '14,061 feet',
           range: 'San Juan Mountains',
@@ -464,7 +462,7 @@ module.exports = {
         {
           name: 'Handies Peak',
           image:
-            'https://en.wikipedia.org/wiki/Handies_Peak#/media/File:Handies_Peak_Colorado.jpg',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/11730466/extra_large_7c2cd4d35d4e95438fa358408562cc48.jpg',
           rank: 39,
           elevation: '14,058 feet',
           range: 'San Juan Mountains',
@@ -476,7 +474,7 @@ module.exports = {
         {
           name: 'Ellingwood Point',
           image:
-            'https://en.wikipedia.org/wiki/Ellingwood_Point#/media/File:MtBlancaEast.jpg',
+            'https://sp-images.summitpost.org/629958.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=b1d7a0623b6ff17f2f4fbec7b80e9053',
           rank: 40,
           elevation: '14,057 feet',
           range: 'Sangre de Cristo',
@@ -488,7 +486,7 @@ module.exports = {
         {
           name: 'Mt. Lindsey',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Lindsey#/media/File:Mount_Lindsey_and_Iron_Nipple.jpg',
+            'https://2.bp.blogspot.com/-Xj67yQ2N0O0/UBX3eDBJeQI/AAAAAAAACTw/kNq5KTKdMzA/s1600/DSC01221.JPG',
           rank: 41,
           elevation: '14,055 feet',
           range: 'Sangre de Cristo',
@@ -498,21 +496,9 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          name: 'Snowmass Mountain',
-          image:
-            'https://en.wikipedia.org/wiki/Snowmass_Mountain#/media/File:Hagerman_Peak_and_Snowmass_Mountain.jpg',
-          rank: 31,
-          elevation: '14,105 feet',
-          range: 'Elk Mountains',
-          lat: 37.621235,
-          long: 107.591774,
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
           name: 'Culebra Peak',
           image:
-            'https://en.wikipedia.org/wiki/Culebra_Peak#/media/File:Culebra_Peak.jpg',
+            'https://s3-us-west-1.amazonaws.com/peakery-media/images/items/main/cache/culebra-peak.jpg.910x680_q95.jpg',
           rank: 42,
           elevation: '14,053 feet',
           range: 'Sangre de Cristo',
@@ -524,7 +510,7 @@ module.exports = {
         {
           name: 'Mt. Sherman',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Sherman#/media/File:MountSherman.JPG',
+            'https://4.bp.blogspot.com/-vpkdEyjNmd8/TlBELVksZxI/AAAAAAAALpg/dmStbIL2C7Y/s1600/1c+Mt.+Sherman.JPG',
           rank: 43,
           elevation: '14,043 feet',
           range: 'Mosquito',
@@ -536,7 +522,7 @@ module.exports = {
         {
           name: 'Little Bear Peak',
           image:
-            'https://en.wikipedia.org/wiki/Little_Bear_Peak#/media/File:Little_Bear_Peak_from_southwest_ridge,_Feb_2012.JPG',
+            'https://sp-images.summitpost.org/696657.jpg?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=4f18f450772c00fe73ce53e7baea8e5e',
           rank: 44,
           elevation: '14,041 feet',
           range: 'Sangre de Cristo',
@@ -548,7 +534,7 @@ module.exports = {
         {
           name: 'Redcloud Peak',
           image:
-            'https://en.wikipedia.org/wiki/Redcloud_Peak#/media/File:Sanjuan14ers-8.jpg',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/11172138/extra_large_39aba54262f272272d68affe06c1c97c.jpg',
           rank: 45,
           elevation: '14,037 feet',
           range: 'San Juan Mountains',
@@ -560,7 +546,7 @@ module.exports = {
         {
           name: 'Pyramid Peak',
           image:
-            'https://en.wikipedia.org/wiki/Pyramid_Peak_(Colorado)#/media/File:Pyramid_Peak.jpg',
+            'https://sp-images.summitpost.org/327613.JPG?auto=format&fit=max&h=1000&ixlib=php-2.1.1&q=35&s=a8ea0b549a088fbb43b912c14ade93f1',
           rank: 46,
           elevation: '14,029 feet',
           range: 'Elk Mountains',
@@ -572,7 +558,7 @@ module.exports = {
         {
           name: 'San Luis Peak',
           image:
-            'https://en.wikipedia.org/wiki/San_Luis_Peak#/media/File:San_Luis_Peak,_San_Juan_Mountains,_Saguache_County,_Colorado,_USA_01.jpg',
+            'https://i1.wp.com/TheMtsAreCalling.com/wp-content/uploads/2020/05/4CA8C3A1-2196-4472-91FB-81405BA929F9-scaled.jpeg?fit=2560%2C1920&ssl=1',
           rank: 47,
           elevation: '14,023 feet',
           range: 'San Juan Mountains',
@@ -596,7 +582,7 @@ module.exports = {
         {
           name: 'Wetterhorn Peak',
           image:
-            'https://en.wikipedia.org/wiki/Wetterhorn_Peak#/media/File:Wetterhorn_peak.jpg',
+            'https://www.mountainphotography.com/images/large/201107_pahgreWetterhornSunset.jpg',
           rank: 49,
           elevation: '14,021 feet',
           range: 'San Juan Mountains',
@@ -608,7 +594,7 @@ module.exports = {
         {
           name: 'Wilson Peak',
           image:
-            'https://en.wikipedia.org/wiki/Wilson_Peak#/media/File:Wilson_Peak_near_Telluride.jpg',
+            'https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/wilson-peak-colorado-joe-schwartz.jpg',
           rank: 50,
           elevation: '14,021 feet',
           range: 'San Juan Mountains',
@@ -620,7 +606,7 @@ module.exports = {
         {
           name: 'Mt. of the Holy Cross',
           image:
-            'https://en.wikipedia.org/wiki/Mount_of_the_Holy_Cross#/media/File:Mount_of_the_Holy_Cross,_2009.jpg',
+            'https://mountainfieldguide.com/wp-content/uploads/2017/10/Mount-of-the-Holy-Cross-a-Colorado-Fourteener.jpg',
           rank: 51,
           elevation: '14,007 feet',
           range: 'Sawatch',
@@ -632,7 +618,7 @@ module.exports = {
         {
           name: 'Huron Peak',
           image:
-            'https://en.wikipedia.org/wiki/Huron_Peak#/media/File:Huron_Peak_(48458753091).jpg',
+            'https://bloximages.newyork1.vip.townnews.com/outtherecolorado.com/content/tncms/assets/v3/editorial/7/43/74345510-dfbe-527a-a770-8712920d7dc9/5eece02e6a872.image.jpg',
           rank: 52,
           elevation: '14,006 feet',
           range: 'Sawatch',
@@ -644,7 +630,7 @@ module.exports = {
         {
           name: 'Sunshine Peak',
           image:
-            'https://en.wikipedia.org/wiki/Sunshine_Peak#/media/File:Red_Cloud_Peak_WSA_(9470419585).jpg',
+            'https://sp-images.summitpost.org/1046469.jpeg?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=1eb5ec4b0550a4f5ff42242ccad94c76',
           rank: 53,
           elevation: '14,004 feet',
           range: 'San Juan Mountains',
