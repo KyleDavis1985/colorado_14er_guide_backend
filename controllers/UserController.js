@@ -24,18 +24,6 @@ const GetUser = async (req, res) => {
   }
 }
 
-const GetUserChecklist = async (req, res) => {
-  try {
-    const usercl = await User.findOne({
-      where: { id: req.params.userId },
-      include: [{ model: Checklist, as: 'user_checklist' }]
-    })
-    res.send(usercl)
-  } catch (error) {
-    throw error
-  }
-}
-
 const GetUserPosts = async (req, res) => {
   try {
     const userposts = await User.findOne({
@@ -84,6 +72,5 @@ module.exports = {
   CreateUser,
   UpdateUser,
   DeleteUser,
-  GetUserChecklist,
   GetUserPosts
 }

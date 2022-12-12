@@ -14,10 +14,6 @@ module.exports = (sequelize, DataTypes) => {
         through: models.Checklist,
         foreignKey: 'userId'
       })
-      User.hasMany(models.Checklist, {
-        foreignKey: 'userId',
-        as: 'user_checklist'
-      })
     }
   }
   User.init(

@@ -92,7 +92,7 @@ module.exports = {
         {
           name: 'Mt. Lincoln',
           image:
-            'https://en.wikipedia.org/wiki/Mount_Lincoln_(Colorado)#/media/File:Mount_Lincoln_Colorado_July_2016.jpg',
+            'https://sp-images.summitpost.org/431360.jpg?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=a6ae5467f5659c428c03cd8760956a03',
           rank: 8,
           elevation: '14,293 feet',
           range: 'Mosquito',
@@ -104,7 +104,7 @@ module.exports = {
         {
           name: 'Grays Peak',
           image:
-            'https://en.wikipedia.org/wiki/Grays_Peak#/media/File:Grays_and_Torreys_Peaks_2006-08-06.jpg',
+            'https://www.uncovercolorado.com/wp-content/uploads/2018/04/grays-torreys-peaks-colorado-1440x960-1280x853.jpg',
           rank: 9,
           elevation: '14,275 feet',
           range: 'Front Range',
@@ -116,7 +116,7 @@ module.exports = {
         {
           name: 'Castle Peak',
           image:
-            'https://en.wikipedia.org/wiki/Castle_Peak_(Colorado)#/media/File:Castle_Peak_CO_Full.JPG',
+            'https://hiking-and-fishing.nyc3.cdn.digitaloceanspaces.com/2021/01/31014901/Castle-Peak.jpg',
           rank: 10,
           elevation: '14,274 feet',
           range: 'Elk Mountains',
@@ -128,7 +128,7 @@ module.exports = {
         {
           name: 'Quandry Peak',
           image:
-            'https://en.wikipedia.org/wiki/Quandary_Peak#/media/File:QuandaryPeak.JPG',
+            'https://cdn-assets.alltrails.com/uploads/photo/image/23572078/extra_large_5f5b52b4ea9f78ae9a59b3faf56558c9.jpg',
           rank: 11,
           elevation: '14,272 feet',
           range: 'Tenmile',
@@ -140,7 +140,7 @@ module.exports = {
         {
           name: 'Torreys Peak',
           image:
-            'https://en.wikipedia.org/wiki/Torreys_Peak#/media/File:Torreys.JPG',
+            'https://i.pinimg.com/originals/28/f6/ea/28f6ea37cad839481c7b5e93e938dd0b.jpg',
           rank: 12,
           elevation: '14,272 feet',
           range: 'Front Range',
