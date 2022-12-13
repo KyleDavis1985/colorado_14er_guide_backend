@@ -20,7 +20,6 @@ const createToken = (payload) => {
   return token
 }
 
-// change
 const verifyToken = (req, res, next) => {
   const { token } = res.locals
   try {
