@@ -36,7 +36,9 @@ const CreateChecklist = async (req, res) => {
 
 const DeleteChecklist = async (req, res) => {
   try {
-    await Checklist.destroy({ where: { id: req.params.mountainId } })
+    await Checklist.destroy({
+      where: { mountainId: req.params.mountainId }
+    })
     res.send({
       msg: 'Checklist Deleted',
       payload: req.params.mountainId,
