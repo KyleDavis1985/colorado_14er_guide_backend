@@ -12,8 +12,8 @@ module.exports = {
           rank: 1,
           elevation: '14,438 feet',
           range: 'Sawatch',
-          lat: 39.118075,
-          long: 106.445417,
+          lat: 39.1178471,
+          long: 106.4627831,
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -24,8 +24,8 @@ module.exports = {
           rank: 2,
           elevation: '14,427 feet',
           range: 'Sawatch',
-          lat: 39.187298,
-          long: 106.475548,
+          lat: 39.1872432,
+          long: 106.4928585,
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -36,8 +36,8 @@ module.exports = {
           rank: 3,
           elevation: '14,424 feet',
           range: 'Sawatch',
-          lat: 38.924328,
-          long: 106.320618,
+          lat: 38.9244704,
+          long: 106.3381313,
           createdAt: new Date(),
           updatedAt: new Date()
         },
